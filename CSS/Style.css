@@ -1,0 +1,952 @@
+body{
+    /*margin-bottom: 1000px;*/
+    /*background-color: aliceblue;*/
+    background: linear-gradient(to right, #4c5f6e, #f0f0f0);
+    padding-top: 55px;
+}
+
+
+/*
+.navBarButton{
+    color: red;
+}
+*/
+
+
+.titleDiv{
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    /*border-radius: 10px;*/
+}
+
+
+.blanckSpace{
+    margin-top: 100px;
+}
+
+
+.divContainer{
+    /*background-color: burlywood;*/
+    width: 80%;
+    margin: auto;
+    padding-top: 0px;
+    display: flex;
+}
+
+
+
+#aboutLogo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+/*
+#aboutLogo:hover{
+    border: solid 6px black;
+    transition: border 0.3s ease;
+    cursor: pointer;
+}
+*/
+
+
+.descriptionText{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+/*
+.descriptionTextLeft{
+    padding-right: 50px;
+}
+
+.descriptionTextRight{
+    padding-left: 50px;
+}
+*/
+
+
+.buttonLink{
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+.buttonLink:hover{
+    background: none;
+    border: solid 3px black;
+    color: black;
+    cursor: pointer;
+}
+
+
+/*
+.buttonLinkLeft{
+    margin-left: 0px;
+}
+
+.buttonLinkRight{
+    margin-right: 0px;
+}
+*/
+
+.gameTitle:hover, .buttonLink:hover{
+    cursor: pointer;
+}
+
+
+iframe{
+    border-radius: 10px;
+    border: solid 2px black;
+    margin-top: 10px;
+    transition: border 0.3s ease;
+}
+
+iframe:hover{
+    border-radius: 10px;
+    border: solid 5px black;
+    cursor: pointer;
+}
+
+
+
+#socialMidiaContainer{
+    margin: auto;
+    width: 80%;
+}
+
+
+#socialMidiaDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: burlywood;*/
+    margin-top:  10px;
+    padding: 20px;
+}
+
+
+.socialMidiaImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+
+.socialMidia{
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background: red;*/
+    border-radius: 10px;
+    border: solid 1px black;
+    transition: border 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.socialMidia:hover{
+    border: solid 3px black;
+    cursor: pointer;
+}
+
+
+#contact, #mission, #values{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    width: 100%;
+    background: gray;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+#contact{
+    height: 610px;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+h2{
+    font-size: 48px;
+}
+
+h2, .contactText, emailSubmit{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+#emailSubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+
+textarea{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    margin-right: 5px;
+    resize: none;
+    line-height: 2.5em;
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+
+/*
+textarea:hover{
+    border: solid gray 3px;
+}
+*/
+
+#submitButton{
+    font-size: 24px;
+    width: 200px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+#submitButton:hover{
+    border: solid gray 3px;
+    cursor: pointer;
+}
+
+
+#footerLink{
+    color: white;
+    text-decoration: none;
+    transition: font-size 0.3s ease
+}
+
+
+#footerLink:hover{
+    font-size: 30px;
+}
+
+
+
+
+#mapImage{
+    border-radius: 10px;
+    border: solid 2px black;
+    margin-top: 10px;
+}
+
+
+
+#companyDivContainer{
+    margin: auto;
+    width: 90%;
+}
+
+
+#companyDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+
+#companyTitle{
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+
+#flagImage, .iconImage{
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+#valueTitle, #missionTitle, #foundersTitle{
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+
+#missionText, #valueText, #foundersText{
+    text-transform: none;
+    height: 100px;
+}
+
+
+#mission, #values, #foundersDiv{
+    background-color: rgb(194, 191, 191);
+    padding: 50px;
+}
+
+
+.valuesImageDiv, .foundersImageDiv{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.valuesImageDiv:hover, .foundersImageDiv:hover{
+    background-color: black;
+    border: 5px;
+}
+
+
+#values, #foundersDiv{
+    background-color: gray;
+    color: white;
+    margin-top: 0px;
+}
+
+
+.valueImagesDivConteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.valueImage{
+    width: 80%;
+    height: 80%;
+}
+
+#foundersDiv{
+    background-color: white;
+}
+
+
+.foundersImageDiv{
+    border: solid 3px white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+
+.foundersImage{
+    height: 195px;
+    width: 195px;
+    border-radius: 50%;
+}
+
+#founderTitle{
+    font-size: 32px;
+}
+
+#foundersText{
+    font-size: 22px;
+}
+
+
+.founderName{
+    color: black;
+    margin-left: 90px; 
+    margin-right: 90px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+#coverImageDiv{
+    width: 100%;
+    height: 500px;
+    /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+}
+
+#coverImage{
+    width: 100%;
+    /*height: 100%;*/
+}
+
+
+
+.titleDiv2{
+    width: 100%;
+    border-radius: 0px;
+    font-size: 38px;
+}
+
+
+.gameSectionDescription{
+    width: 100%;
+    /*background-color: rgb(228, 159, 32);*/
+    /*background-image: url(../img/Screenshot\ \(30\).png);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.gameplayImage{
+    width: 500px;
+    height: 300px;
+    border: solid 3px black;
+}
+
+
+.gameDescriptionTitle{
+    background-color: black;
+    height: 60px;
+    text-align: left;
+    padding-left:  20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.midiaContentBlockDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.midiaContent{
+    width: 300px;
+    height: 200px;
+    border: solid 3px black;
+    border-radius: 0px;
+}
+
+
+
+.downloadButton{
+    border-radius: 0px;
+    font-size: 18px;
+    width: 500px;
+    margin-top: 50px;
+    height: 60px;
+}
+
+
+.videoContent:hover{
+    border-radius: 0px;
+}
+
+
+.imageContent{
+    margin: 20px;
+}
+
+iframe, .descriptionText, #mapImage, .gameDescriptionTitle, .gameplayImage, #aboutLogo{
+    margin: 20px;
+}
+
+
+.gameTrailerIframe{
+    width: 400px;
+    height: 235px;
+    border-radius: 0px;
+    border: solid 7px black;
+}
+
+
+.gameTrailerIframe:hover{
+    border-radius: 0px;
+}
+
+
+.socialMidiaBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.carouselDivConteiner{
+    height: 500px; 
+    overflow: hidden;
+}
+
+
+.carouselImage{
+    /*height: 550px;*/
+    width: 100%;
+}
+
+
+#contactTitle{
+    margin-bottom: 50px;
+}
+
+
+#registerEmailText{
+    margin-bottom: 20px;
+}
+
+
+
+.valueImageBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#steamLogo{
+    width: 45px;
+    height: 45px;
+}
+
+
+
+.nav-link{
+    color: white;
+}
+
+
+/*
+.container-fluid{
+    background-color: black;
+}
+*/
+
+
+a{
+    text-decoration: none;
+}
+
+.simpleLink{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+
+.simpleLink:hover{
+    color: black;
+}
+
+
+.extendLink{
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ----------------------- Responsividade no Mobile  ----------------------------- */
+
+@media (max-width: 767px){
+
+    body{
+        padding-top: 55px;
+    }
+
+    .divContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*background-color: red;*/
+        padding-top: 20px;
+    }
+
+
+    .simpleCenterDiv{
+        /*background-color: blue;*/
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .midiaContentBlockDiv{
+        flex-direction: column;
+    }
+
+
+    .gameTrailerIframe, #mapImage, .gameplayImage{
+        width: 250px;
+        height: 150px;
+        border-radius: 0px;
+        border: solid 1px;
+    }
+
+    #socialMidiaDiv{
+        flex-direction: column;
+    }
+
+    .socialMidia{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*
+    .socialMidiaBlock{
+        flex-direction: column;
+    }
+    */
+
+
+    .carouselDivConteiner{
+        height: 200px; 
+    }
+
+    /*
+    .carouselImage, #coverImageDiv{
+        height: 200px;
+    }
+    */
+
+    #coverImageDiv{
+        width: 100%;
+        height: 200px;
+    }
+
+    .titleDiv{
+        font-size: 28px;
+    }
+
+    /*
+    .descriptionText{
+        background-color: red;
+    }
+    */
+
+
+    .blanckSpace{
+        margin-top: 20px;
+    }
+
+
+    .titleDiv{
+        border-radius: 0px;
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+
+    .descriptionText{
+        font-size: 12px;
+    }
+
+    #aboutLogo{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        border: none;
+    }
+
+
+    #socialMidiaContainer{
+        /*background-color: red;*/
+    }
+
+
+    .socialMidia{
+        height: 90px;
+        width: 80px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px;
+    }
+
+
+    .socialMidiaBlock{
+
+    }
+
+    .socialMidiaImage{
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    #contact{
+        height: auto;
+        padding-top: 40px;
+        margin-top: 0px;
+    }
+
+
+    .contactText{
+        font-size: 12px;
+    }
+
+
+    h2{
+        font-size: 24px;
+    }
+
+    textarea{
+        height: 30px;
+        width: 100%;
+        margin-right: 5px;
+        line-height: 1.5em;
+        font-size: 14px;
+        margin-right: 2px;
+    }
+    
+
+    #submitButton{
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+
+
+    #pisEmailText{
+        font-size: 14px;
+    }
+
+
+    #footerLink{
+        font-size: 16px;
+    }
+
+    #footerLink:hover{
+        font-size: 18px;
+    }
+
+
+    #footer{
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #emailSubmit{
+        margin-bottom: 5px;
+    }
+
+    #contactTitle{
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    #registerEmailText{
+        margin-bottom: 5px;
+    }
+
+    .buttonLink{
+        border-radius: 10px;
+        font-size: 10px;
+        width: 120px;
+        height: 35px;
+    }
+
+
+    #companyTitle{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #flagImage{
+        width: 80px;
+        height: 50px;
+    }
+    
+
+    #mission{
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .valuesImageDiv{
+        width: 70px;
+        height: 70px;
+    }
+
+    #missionTitle, #valueTitle, #foundersTitle, #founderTitle{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+
+    .valueImagesDivConteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #values{
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+
+    #valueText{
+        height: 70px;
+        margin-bottom: 0px;
+    }
+
+
+    .foundersImageDiv{
+        width: 120px;
+        height: 120px;
+    }
+
+    .foundersImage{
+        width: 117px;
+        height: 117px;
+    }
+
+
+    .valueImagesDivConteiner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .valueImageBlock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .founderName{
+        width: 95px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 14px;
+    }
+
+
+    #foundersDiv{
+        padding-top: 20px;
+    }
+
+
+    #foundersText{
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    #foundersTitle{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .titleDiv2{
+        width: 90%;
+    }
+
+    #steamLogo{
+        width: 25px;
+        height: 25px;
+    }
+
+
+    .gameDescriptionTitle{
+        font-size: 14px;
+        height: 30px;
+    }
+
+
+    .midiaContent{
+        border: solid 2px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+
+    .downloadButton{
+        width: 200px;
+    }
+}
