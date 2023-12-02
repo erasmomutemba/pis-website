@@ -16,7 +16,7 @@ const defaultMissionText = document.querySelector('#missionText').textContent;
 const value1 = document.querySelector('#value1');
 value1.addEventListener('mouseover', function(){
     valueTitle.textContent = "Constant Innovation";
-    valueText.textContent = "Texto do 1ºWe embrace innovation as a foundational cornerstone. We relentlessly pursue new approaches, ideas, and technologies to enhance our creations, offering players unique and cutting-edge experiences.";
+    valueText.textContent = "We embrace innovation as a foundational cornerstone. We relentlessly pursue new approaches, ideas, and technologies to enhance our creations, offering players unique and cutting-edge experiences.";
 })
 
 value1.addEventListener('mouseout', function(){
