@@ -3,187 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="CSS/Style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Space+Mono:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script defer src="Scripts/Script.js"></script>
 
-    <link rel="icon" href="Icons/favicon-32x32.png" type="image/x-icon">
-    <title>PIS Games</title>
+    <link rel="icon" href="Icons/new favicon-32x32.png" type="image/x-icon">
+    <title>About Us | PIS Games</title>
 </head>
 <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg fixed-top modern-nav" data-bs-theme="dark">
         <div class="container-fluid">
+          <a class="navbar-brand brand-logo" href="Index.html">
+            <span class="brand-text">PIS</span>
+            <span class="brand-accent">GAMES</span>
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="Index.html">HOME</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#pisAnchor">PIS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#missionAnchor">MISSION/VALUES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#foundersAnchor">FOUNDERS</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRESS KIT
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="Shadow Strikers.html">Shadow Strikers</a></li>
-                  <li><a class="dropdown-item" href="UnlimitedFight US.html">Unlimited Fight Ultimate Strike</a></li>
-                  <li><a class="dropdown-item" href="Unlimited Fight.html">Unlimited Fight</a></li>
-                  <li><a class="dropdown-item" href="Lost In The Space.html">Lost In The Space</a></li>
-                </ul>
-              </li>
+                    <a class="nav-link" href="Index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pisAnchor">PIS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#missionAnchor">MISSION/VALUES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#foundersAnchor">FOUNDERS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PRESS KIT
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="Shadow Strikers Arena of Rivals.html">Shadow Strikers Arena of Rivals</a></li>
+                    <li><a class="dropdown-item" href="Shadow Strikers.html">Shadow Strikers</a></li>
+                    <li><a class="dropdown-item" href="UnlimitedFight US.html">Unlimited Fight Ultimate Strike</a></li>
+                    <li><a class="dropdown-item" href="Unlimited Fight.html">Unlimited Fight</a></li>
+                    <li><a class="dropdown-item" href="Lost In The Space.html">Lost In The Space</a></li>
+                    </ul>
+                </li>
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
-
-      <!--Blanck Space-->
-      <div class="blanckSpace"></div>
-
-
-    <!--Our Games-->
-    <div class="titleDiv">About Us</div>
-    <!--Shadow Strikers-->
-    <div class="d-flex align-items-start divContainer">
-        <div>
-            <p class="descriptionText descriptionTextLeft">We are PIS Games, an independent game studio based in Mozambique. Specializing in fighting games and exploring other genres like top-down shooters, since 2020, we've been dedicated to creating engaging and thrilling games that offer unique player experiences.
-
-                Our passion for game development drives us to explore the crossroads of creativity and technology, with the goal of crafting memorable gaming experiences.</p>
+    <!--Hero Section-->
+    <section class="about-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">About PIS Games</h1>
+            <p class="hero-subtitle">Creating Unforgettable Gaming Experiences Since 2020</p>
         </div>
-        <div class="simpleCenterDiv">
-            <img id="mapImage" src="img/mapa Mundo 2.png" width="560" height="315"></img>
+    </section>
+
+    <div id="aboutAnchor"></div>
+
+    <!--About Section-->
+    <section class="page-section">
+        <div class="container">
+            <div class="about-content-page">
+                <div class="about-text-page">
+                    <div class="section-label">Our Story</div>
+                    <h2 class="content-title">Who We Are</h2>
+                    <p class="body-text">We are PIS Games, an independent game studio based in Mozambique. Specializing in fighting games and exploring other genres like top-down shooters, since 2020, we've been dedicated to creating engaging and thrilling games that offer unique player experiences.</p>
+                    <p class="body-text">Our passion for game development drives us to explore the crossroads of creativity and technology, with the goal of crafting memorable gaming experiences.</p>
+                </div>
+                <div class="map-wrapper">
+                    <img id="mapImage" src="img/mapa Mundo 2.png" alt="World Map">
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
+    <div id="pisAnchor"></div>
 
-    <div id="pisAnchor"></div> 
-
-
-
-    <!--Company-->
-    <div id="companyDivContainer">
-        <div id="companyDiv">
-            <h2 id="companyTitle">WE ARE A Mozambican COMPANY</h2>
-            <img id="flagImage" src="img/mozambique.png" alt="">
+    <!--Company Origin-->
+    <section class="origin-section">
+        <div class="container">
+            <div class="origin-card">
+                <h2 class="origin-title">We Are A Mozambican Company</h2>
+                <div class="flag-container">
+                    <img id="flagImage" src="img/mozambique.png" alt="Mozambique Flag">
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
-
-    <!--Our Games-->
-    <div class="titleDiv">WHAT DOES PIS MEAN?
-    </div>
-    <!--Shadow Strikers-->
-    <div class="d-flex align-items-start divContainer">
-        <div class="leftDiv">
-            <p class="descriptionText">"PIS" derives from the Portuguese "Pedaço do Império dos Sonhos," which translates to "Piece of the Empire of Dreams" in English. This acronym serves as a testament to our dynamic gaming community—an inclusive haven where gamers unite to embark on a collective odyssey of dreams and exhilaration.</p>
+    <!--PIS Meaning-->
+    <section class="page-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Name</span>
+                <h2 class="section-title">What Does PIS Mean?</h2>
+            </div>
+            <div class="meaning-content">
+                <p class="lead-text">"PIS" derives from "Players In Strike"</p>
+                <p class="body-text">This acronym reflects our commitment to creating an energetic and engaging gaming community. It embodies a place where gamers come together, unite their skills, and embark on epic journeys filled with action, strategy, and excitement.</p>
+            </div>
         </div>
-        <div class="rightDiv">
-            
-        </div>
-    </div>
+    </section>
 
-
-
-    <div id="missionAnchor"></div>  
+    <div id="missionAnchor"></div>
 
     <!--Mission-->
-    <div id="mission">
-        <h2 id="missionTitle">Mission</h2>
-        <p id="missionText" class="contactText">Our mission at PIS Games is to create gaming experiences that engage and thrill players, providing immersive and unforgettable moments.</p>
-        <div id="ourMission" class="valuesImageDiv">
-            <img class="valueImage" src="img/Values Images/alvo.png" alt="">
+    <section class="mission-section">
+        <div class="container">
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <img class="value-image" src="img/Values Images/alvo.png" alt="Mission">
+                </div>
+                <h2 class="mission-title">Our Mission</h2>
+                <p class="mission-text">Our mission at PIS Games is to create gaming experiences that engage and thrill players, providing immersive and unforgettable moments.</p>
+            </div>
         </div>
-    </div>
-
-
+    </section>
 
     <div id="valuesAnchor"></div>
 
     <!--Values-->
-    <div id="values">
-        <h2 id="valueTitle" style="color: white;">Values</h2>
-        <p id="valueText" class="contactText" style="color: white;">Our values are the main advisor. They underline our actions and decisions.</p>
-        <div class="valueImagesDivConteiner">
-            <div class="valueImageBlock">
-                <div id="value1" class="valuesImageDiv">
-                    <img class="valueImage" src="img/Values Images/missao (2).png" alt="">
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What Drives Us</span>
+                <h2 class="section-title" style="color: white;">Our Values</h2>
+            </div>
+            <p class="values-intro">Our values are the main advisor. They underline our actions and decisions.</p>
+            
+            <div class="values-grid">
+                <div id="value1" class="value-card">
+                    <div class="value-icon">
+                        <img class="value-image" src="img/Values Images/missao (2).png" alt="Value 1">
+                    </div>
+                    <h3 id="valueTitle1" class="value-title">Constant Innovation</h3>
+                    <p id="valueText1" class="value-description">We embrace innovation as a foundational cornerstone.</p>
                 </div>
-                <div id="value2" class="valuesImageDiv">
-                    <img  class="valueImage" src="img/Values Images/missao.png" alt="">
+
+                <div id="value2" class="value-card">
+                    <div class="value-icon">
+                        <img class="value-image" src="img/Values Images/missao.png" alt="Value 2">
+                    </div>
+                    <h3 id="valueTitle2" class="value-title">Passion for Excellence</h3>
+                    <p id="valueText2" class="value-description">Our commitment to excellence is fueled by passion.</p>
                 </div>
-                <div id="value3" class="valuesImageDiv">
-                    <img class="valueImage" src="img/Values Images/valor-central.png" alt="">
+
+                <div id="value3" class="value-card">
+                    <div class="value-icon">
+                        <img class="value-image" src="img/Values Images/valor-central.png" alt="Value 3">
+                    </div>
+                    <h3 id="valueTitle3" class="value-title">Resilient Community</h3>
+                    <p id="valueText3" class="value-description">We nurture a united community that values diversity.</p>
+                </div>
+
+                <div id="value4" class="value-card">
+                    <div class="value-icon">
+                        <img class="value-image" src="img/Values Images/valor.png" alt="Value 4">
+                    </div>
+                    <h3 id="valueTitle4" class="value-title">Unlimited Exploration</h3>
+                    <p id="valueText4" class="value-description">We embrace curiosity and the constant quest for new horizons.</p>
+                </div>
+
+                <div id="value5" class="value-card">
+                    <div class="value-icon">
+                        <img class="value-image" src="img/Values Images/missao (1).png" alt="Value 5">
+                    </div>
+                    <h3 id="valueTitle5" class="value-title">Continuous Growth</h3>
+                    <p id="valueText5" class="value-description">We believe that learning is an endless journey.</p>
                 </div>
             </div>
-            <div class="valueImageBlock">
-                <div id="value4" class="valuesImageDiv">
-                    <img class="valueImage" src="img/Values Images/valor.png" alt="">
-                </div>
-                <div id="value5" class="valuesImageDiv">
-                    <div id="foundersAnchor"></div>
-                    <img class="valueImage" src="img/Values Images/missao (1).png" alt="">
-                </div>
-            </div>            
         </div>
-    </div>
+    </section>
 
+    <div id="foundersAnchor"></div>
 
-    
     <!--Founders-->
-    <div id="foundersDiv">
-        <h2 id="foundersTitle">FOUNDERS</h2>
-        <br>
-        <div class="valueImagesDivConteiner">
-            <div class="valueImageBlock">
-                <div id="founder1" class="foundersImageDiv">
-                    <img class="foundersImage" src="img/Founders Images/IMG-20220729-WA0018.jpg" alt="">
-                </div>
-                <div id="founder2" class="foundersImageDiv">
-                    <img  class="foundersImage" src="img/Founders Images/IMG-20230828-WA0000.jpg" alt="">
-                </div>
+    <section class="founders-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">The Team</span>
+                <h2 class="section-title">Our Founders</h2>
             </div>
-    
-            <div class="valueImageBlock">
-                <div>
-                    <p class="founderName">Erasmo<br>Mutemba</p>
+
+            <div class="founders-grid">
+                <div id="founder1" class="founder-card">
+                    <div class="founder-image-wrapper">
+                        <img class="founder-image" src="img/Founders Images/IMG_1241.jpeg" alt="Erasmo Mutemba">
+                    </div>
+                    <h3 class="founder-name">Erasmo Mutemba</h3>
+                    <p class="founder-role">CEO</p>
+                    <p class="founder-bio">With a degree in Electronic and Computer Engineering, he brings comprehensive skills that span from game development to programming, marketing, and strategic planning.</p>
                 </div>
-                <div>
-                    <p class="founderName">Dilton<br>Banze</p>
+
+                <div id="founder2" class="founder-card">
+                    <div class="founder-image-wrapper">
+                        <img class="founder-image" src="img/Founders Images/IMG-20230828-WA0000.jpg" alt="Dilton Banze">
+                    </div>
+                    <h3 class="founder-name">Dilton Banze</h3>
+                    <p class="founder-role">Creative Director</p>
+                    <p class="founder-bio">With a degree in Software Development, he contributes as a 3D modeler. Proficient in software like ZBrush and Blender, he excels in character design, adding a unique artistic approach to our projects.</p>
                 </div>
             </div>
         </div>
-        
-
-        <br><br>
-        <h2 id="founderTitle">CEO - Erasmo Mutemba</h2>
-        <p id="foundersText" class="contactText">With a degree in Electronic and Computer Engineering, he brings comprehensive skills that span from game development to programming, marketing, and strategic planning.</p>
-    </div>
-    
-     
+    </section>
 
     <!--Footer-->
-    <div id="footer">
-        <a id="footerLink" href="#">PIS Games 2023</a>
-    </div>
-
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="Index.html" class="footer-brand">PIS Games</a>
+                <p class="footer-copyright">© 2026 PIS Games. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

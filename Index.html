@@ -7,83 +7,98 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="CSS/Style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Space+Mono:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script defer src="Scripts/Script.js"></script>
 
-    <link rel="icon" href="Icons/favicon-32x32.png" type="image/x-icon">
-    <title>PIS Games</title>
+    <link rel="icon" href="Icons/new favicon-32x32.png" type="image/x-icon">
+    <title>PIS Games | Independent Game Studio</title>
 </head>
 <body>
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg fixed-top modern-nav" data-bs-theme="dark">
         <div class="container-fluid">
+          <a class="navbar-brand brand-logo" href="#">
+            <span class="brand-text">PIS</span>
+            <span class="brand-accent">GAMES</span>
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">HOME</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#aboutAnchor">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#ourGamesAnchor">GAMES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#socialMidiaAnchor">SOCIAL MIDIA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contactAnchor">CONTACT</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRESS KIT
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="Shadow Strikers.html">Shadow Strikers</a></li>
-                  <li><a class="dropdown-item" href="UnlimitedFight US.html">Unlimited Fight Ultimate Strike</a></li>
-                  <li><a class="dropdown-item" href="Unlimited Fight.html">Unlimited Fight</a></li>
-                  <li><a class="dropdown-item" href="Lost In The Space.html">Lost In The Space</a></li>
-                </ul>
-              </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutAnchor">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ourGamesAnchor">GAMES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#socialMidiaAnchor">SOCIAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactAnchor">CONTACT</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PRESS KIT
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="Shadow Strikers Arena of Rivals.html">Shadow Strikers Arena of Rivals</a></li>
+                    <li><a class="dropdown-item" href="Shadow Strikers.html">Shadow Strikers</a></li>
+                    <li><a class="dropdown-item" href="UnlimitedFight US.html">Unlimited Fight Ultimate Strike</a></li>
+                    <li><a class="dropdown-item" href="Unlimited Fight.html">Unlimited Fight</a></li>
+                    <li><a class="dropdown-item" href="Lost In The Space.html">Lost In The Space</a></li>
+                    </ul>
+                </li>
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
-      <!--Carousel-->
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <!--Hero Carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide hero-carousel" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
-        <div class="carousel-inner carouselDivConteiner">
+        <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/Shadow Strikers/Shadow Strikers Cover Image.png" class="d-block w-100 carouselImage" alt="Shadow Strikers">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Shadow Strikers</h5>
+            <div class="carousel-overlay"></div>
+            <img src="img/Shadow Strikers Arena of Rivals/Shadow Strikers New Cover Image.png" class="d-block w-100 carousel-img" alt="Shadow Strikers Arena of Rivals">
+            <div class="carousel-caption">
+              <h5 class="carousel-title">Shadow Strikers Arena of Rivals</h5>
+              <p class="carousel-subtitle">Epic battles await</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/Unlimited Fight US/Capa Mesclada 2.png" class="d-block w-100 carouselImage" alt="Unlimited Fight Ultimate Strike">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Unlimited Fight Ultimate Strike</h5>
+            <div class="carousel-overlay"></div>
+            <img src="img/Shadow Strikers/Shadow Strikers Cover Image.png" class="d-block w-100 carousel-img" alt="Shadow Strikers">
+            <div class="carousel-caption">
+              <h5 class="carousel-title">Shadow Strikers</h5>
+              <p class="carousel-subtitle">Fight for power and influence</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/Unlimited Fight/Capa Unlimited Fight.jpg" class="d-block w-100 carouselImage" alt="Unlimited Fight">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Unlimited Fight</h5>
+            <div class="carousel-overlay"></div>
+            <img src="img/Unlimited Fight US/Capa Mesclada 2.png" class="d-block w-100 carousel-img" alt="Unlimited Fight Ultimate Strike">
+            <div class="carousel-caption">
+              <h5 class="carousel-title">Unlimited Fight Ultimate Strike</h5>
+              <p class="carousel-subtitle">Ultimate 3D combat experience</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="img/Lost In The Space/Capa Lost In The Space 2.png" class="d-block w-100 carouselImage" alt="Lost In The Space">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Lost In The Space</h5>
+            <div class="carousel-overlay"></div>
+            <img src="img/Unlimited Fight/Capa Unlimited Fight.jpg" class="d-block w-100 carousel-img" alt="Unlimited Fight">
+            <div class="carousel-caption">
+              <h5 class="carousel-title">Unlimited Fight</h5>
+              <p class="carousel-subtitle">Ready for action?</p>
             </div>
           </div>
         </div>
@@ -95,161 +110,215 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-
-
-
-      <div id="aboutAnchor"></div>
-
-      <!--Blanck Space-->
-      <div class="blanckSpace"></div>
-
-      <!--About US-->
-      
-      <div id="about" class="titleDiv">About US</div>
-      <div class="d-flex align-items-start divContainer">
-        <div class="simpleCenterDiv">
-            <img id="aboutLogo" src="img/PiS GAMES.png" alt="PIS Logo">
-        </div>
-        <div>
-            <p class="descriptionText">We are PIS Games, an independent game studio based in Mozambique. Specializing in fighting games and exploring other genres like top-down shooters, since 2020, we've been dedicated to creating engaging and thrilling games that offer unique player experiences. Our passion for game development drives us to explore the crossroads of creativity and technology, with the goal of crafting memorable gaming experiences.</p>
-            <div class="titleDiv buttonLink"><a class="simpleLink extendLink" href="About.html">More Information</a></div>
-        </div>
     </div>
 
+    <div id="aboutAnchor"></div>
+
+    <!--About Section-->
+    <section class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Who We Are</span>
+                <h2 class="section-title">About PIS Games</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-logo-wrapper">
+                    <div class="logo-glow"></div>
+                    <img id="aboutLogo" src="img/New PIS Games Logo.jpeg" alt="PIS Games Logo">
+                </div>
+                <div class="about-text">
+                    <p class="lead-text">We are PIS Games, an independent game studio based in Mozambique.</p>
+                    <p class="body-text">Specializing in fighting games and exploring other genres like top-down shooters, since 2020, we've been dedicated to creating engaging and thrilling games that offer unique player experiences. Our passion for game development drives us to explore the crossroads of creativity and technology, with the goal of crafting memorable gaming experiences.</p>
+                    <a class="cta-button" href="About.html">
+                        <span>Discover More</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div id="ourGamesAnchor"></div>
 
-    <!--Blanck Space-->
-    <div class="blanckSpace"></div>
-
-    <!--Our Games-->
-    <div class="titleDiv">Our Games</div>
-    <!--Shadow Striker-->
-    <div class="d-flex align-items-start divContainer">
-        <div class="simpleCenterDiv">
-          <iframe class="gameTrailerIframe" src="https://www.youtube.com/embed/2_jQabTMDcQ?si=m5sfaI3OxKT88R_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <div>
-            <p class="descriptionText">In a city dominated by underworld organizations, street violence gives way to an unusual pact. "The Shadow Tournament". In Shadowhaven each organization chooses a champion to fight on its behalf, where victories bring power and influence. As he fights for power and influence, 'The Dark One' manipulates events. Uncover the truth and shape the city's destiny in Shadow Strikers.</p>
-            <div class="titleDiv buttonLink"><a class="simpleLink extendLink" href="Shadow Strikers.html">Shadow Strikers</a></div>
-        </div>
-    </div>
-
-    <!--Unlimited Fight Ultimate Strike-->
-    <div class="d-flex align-items-start divContainer">
-        <div>
-            <p class="descriptionText">In the best 3D style, continuation of the first game in the Unlimited Fight series, with improvements in combat mechanics, visuals, stories and much more, immerse yourself in this world full of action, epic and intense battles alone or with friends</p>
-            <div class="titleDiv buttonLink"><a class="simpleLink extendLink" href="UnlimitedFight US.html">Unlimited Fight US</a></div>
-        </div>
-        <div class="simpleCenterDiv">
-            <iframe class="gameTrailerIframe" src="https://www.youtube.com/embed/cYl2DF5dxFk?si=mWXcKuuYUdQQAyVX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-    </div>
-
-        <!--Unlimited Fight-->
-        <div class="d-flex align-items-start divContainer">
-            <div class="simpleCenterDiv">
-                <iframe class="gameTrailerIframe" src="https://www.youtube.com/embed/O3fIC4Gxqs0?si=rRtG8Wum54-3jZVK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--Games Section-->
+    <section class="games-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Portfolio</span>
+                <h2 class="section-title">Featured Games</h2>
             </div>
-            <div>
-                <p class="descriptionText">Fighting game developed in the best 3d style, with simple commands and easy to learn even for those who do not play fighting games, but with a variety of movements and combos that can be applied. are you ready for action?
-                </p>
-                <div class="titleDiv buttonLink"><a class="simpleLink extendLink" href="Unlimited Fight.html">Unlimited Fight</a></div>
+
+            <!--Shadow Strikers Arena of Rivals-->
+            <div class="game-card">
+                <div class="game-content">
+                    <div class="game-info">
+                        <h3 class="game-title">Shadow Strikers Arena of Rivals</h3>
+                        <p class="game-description">In the best 3D style, continuation of the first game in the Unlimited Fight series, with improvements in combat mechanics, visuals, stories and much more, immerse yourself in this world full of action, epic and intense battles alone or with friends</p>
+                        <a class="game-link" href="Shadow Strikers Arena of Rivals.html">
+                            <span>View Details</span>
+                            <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="game-media">
+                        <iframe class="game-trailer" src="https://www.youtube.com/embed/CnuLNOW5kfE?si=72PYc8YWo_RjQcDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!--Shadow Strikers-->
+            <div class="game-card reverse">
+                <div class="game-content">
+                    <div class="game-media">
+                        <iframe class="game-trailer" src="https://www.youtube.com/embed/2_jQabTMDcQ?si=m5sfaI3OxKT88R_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="game-info">
+                        <h3 class="game-title">Shadow Strikers</h3>
+                        <p class="game-description">In a city dominated by underworld organizations, street violence gives way to an unusual pact. "The Shadow Tournament". In Shadowhaven each organization chooses a champion to fight on its behalf, where victories bring power and influence. As he fights for power and influence, 'The Dark One' manipulates events. Uncover the truth and shape the city's destiny in Shadow Strikers.</p>
+                        <a class="game-link" href="Shadow Strikers.html">
+                            <span>View Details</span>
+                            <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Unlimited Fight Ultimate Strike-->
+            <div class="game-card">
+                <div class="game-content">
+                    <div class="game-info">
+                        <h3 class="game-title">Unlimited Fight Ultimate Strike</h3>
+                        <p class="game-description">In the best 3D style, continuation of the first game in the Unlimited Fight series, with improvements in combat mechanics, visuals, stories and much more, immerse yourself in this world full of action, epic and intense battles alone or with friends</p>
+                        <a class="game-link" href="UnlimitedFight US.html">
+                            <span>View Details</span>
+                            <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="game-media">
+                        <iframe class="game-trailer" src="https://www.youtube.com/embed/cYl2DF5dxFk?si=mWXcKuuYUdQQAyVX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!--Unlimited Fight-->
+            <div class="game-card reverse">
+                <div class="game-content">
+                    <div class="game-media">
+                        <iframe class="game-trailer" src="https://www.youtube.com/embed/O3fIC4Gxqs0?si=rRtG8Wum54-3jZVK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="game-info">
+                        <h3 class="game-title">Unlimited Fight</h3>
+                        <p class="game-description">Fighting game developed in the best 3d style, with simple commands and easy to learn even for those who do not play fighting games, but with a variety of movements and combos that can be applied. Are you ready for action?</p>
+                        <a class="game-link" href="Unlimited Fight.html">
+                            <span>View Details</span>
+                            <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Lost In The Space-->
+            <div class="game-card">
+                <div class="game-content">
+                    <div class="game-info">
+                        <h3 class="game-title">Lost In The Space</h3>
+                        <p class="game-description">Lost In The Space combines frantic top-down action with fast, fluid and very addictive gameplay, with instant response to player commands</p>
+                        <a class="game-link" href="Lost In The Space.html">
+                            <span>View Details</span>
+                            <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="game-media">
+                        <iframe class="game-trailer" src="https://www.youtube.com/embed/q6ZlNzoePZ8?si=Io7tV2E6lH8ko3Ge" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
-    
-        <!--Lost In The Space-->
-        <div class="d-flex align-items-start divContainer">
-            <div>
-                <p class="descriptionText">Lost In The Space combines frantic top-down action with fast, fluid and very addictive gameplay, with instant response to player commands
-                </p>
-                <div class="titleDiv buttonLink"><a class="simpleLink extendLink" href="Lost In The Space.html">Lost In The Space</a></div>
-            </div>
-            <div class="simpleCenterDiv">
-                <iframe class="gameTrailerIframe" src="https://www.youtube.com/embed/q6ZlNzoePZ8?si=Io7tV2E6lH8ko3Ge" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </div>
-
-
-
+    </section>
 
     <div id="socialMidiaAnchor"></div>
 
-        <!--Blanck Space-->
-    <div class="blanckSpace"></div>
-
-    <!--Social Midia-->
-    <div class="titleDiv">Social Midia</div>
-    <div id="socialMidiaContainer">
-        <div id="socialMidiaDiv">
-            <div class="socialMidiaBlock">
-                <a href="https://twitter.com/pisgames_studio" target="_blank">
-                    <div class="socialMidia">
-                        <img class="socialMidiaImage" src="img/Social Midia Logos/twitter.png" alt="Twitter">
-                        Twitter
-                    </div>
-                </a>
-                <a href="https://www.tiktok.com/@pis_games?lang" target="_blank">
-                  <div class="socialMidia">
-                      <img class="socialMidiaImage" src="img/Social Midia Logos/video.png" alt="Tik Tok">
-                      Tik Tok
-                  </div>
-              </a>
-                <!--<a href="https://www.instagram.com/pisgames_studio/" target="_blank">
-                    <div class="socialMidia">
-                        <img class="socialMidiaImage" src="img/Social Midia Logos/instagram.png" alt="Instagram">
-                        Instagram
-                    </div>
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=61550876308028" target="_blank">
-                    <div class="socialMidia">
-                        <img class="socialMidiaImage" src="img/Social Midia Logos/facebook.png" alt="Facebook">
-                        Facebook
-                    </div>
-                </a>-->
+    <!--Social Media Section-->
+    <section class="social-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Connect With Us</span>
+                <h2 class="section-title">Social Media</h2>
             </div>
-            <div class="socialMidiaBlock">
-              <a href="https://www.youtube.com/@pisgames360" target="_blank">
-                <div class="socialMidia">
-                    <img class="socialMidiaImage" src="img/Social Midia Logos/youtube.png" alt="Youtube">
-                    Youtube
-                </div>
-            </a>
-                <a href="https://discord.com/channels/1146538621713776811/1146538622233882656" target="_blank">
-                    <div class="socialMidia">
-                        <img class="socialMidiaImage" src="img/Social Midia Logos/Discord Logo.png" alt="Discord">
-                        Discord
+
+            <div class="social-grid">
+                <a href="https://twitter.com/pisgames_studio" target="_blank" class="social-card twitter">
+                    <div class="social-icon">
+                        <img src="img/Social Midia Logos/twitter.png" alt="Twitter">
                     </div>
+                    <span class="social-name">Twitter</span>
+                    <div class="social-arrow">→</div>
+                </a>
+
+                <a href="https://www.tiktok.com/@pis_games?lang" target="_blank" class="social-card tiktok">
+                    <div class="social-icon">
+                        <img src="img/Social Midia Logos/video.png" alt="TikTok">
+                    </div>
+                    <span class="social-name">TikTok</span>
+                    <div class="social-arrow">→</div>
+                </a>
+
+                <a href="https://www.youtube.com/@pisgames360" target="_blank" class="social-card youtube">
+                    <div class="social-icon">
+                        <img src="img/Social Midia Logos/youtube.png" alt="YouTube">
+                    </div>
+                    <span class="social-name">YouTube</span>
+                    <div class="social-arrow">→</div>
+                </a>
+
+                <a href="https://discord.com/channels/1146538621713776811/1146538622233882656" target="_blank" class="social-card discord">
+                    <div class="social-icon">
+                        <img src="img/Social Midia Logos/Discord Logo.png" alt="Discord">
+                    </div>
+                    <span class="social-name">Discord</span>
+                    <div class="social-arrow">→</div>
                 </a>
             </div>
-            
-            
         </div>
-    </div>
-
-
-
-    <!--Contact-->
-    <div id="contact">
-        <h2 id="contactTitle">STAY UP TO DATE ON THE NEWS!</h2>
-      <!--
-        <p id="registerEmailText" class="contactText">REGISTER YOUR EMAIL AND RECEIVE NEWS AND UPDATES</p>
-        <div id="emailSubmit">
-            <textarea name="" id="" cols="30" rows="1" placeholder="john@gmail.com"></textarea>
-            <div id="submitButton" class="descriptionText">Send</div>
-        </div>
-        -->
-        <p class="contactText">CONTACT US AT: <p id="pisEmailText" style="color: white;">studio.pisgames@gmail.com</p></p>
-    </div>
+    </section>
 
     <div id="contactAnchor"></div>
 
-    <!--Footer-->
-    <div id="footer">
-        <a id="footerLink" href="#">PIS Games 2023</a>
-    </div>
+    <!--Contact Section-->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="contact-title">Stay Up To Date</h2>
+                <p class="contact-subtitle">Get the latest news and updates</p>
+                <div class="contact-email">
+                    <span class="email-label">Contact us at:</span>
+                    <a href="mailto:studio.pisgames@gmail.com" class="email-link">studio.pisgames@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-brand">PIS Games</a>
+                <p class="footer-copyright">© 2026 PIS Games. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

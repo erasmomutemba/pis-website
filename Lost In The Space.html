@@ -7,168 +7,188 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="CSS/Style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Space+Mono:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script defer src="Scripts/Script.js"></script>
 
-    <link rel="icon" href="Icons/favicon-32x32.png" type="image/x-icon">
-    <title>PIS Games</title>
+    <link rel="icon" href="Icons/new favicon-32x32.png" type="image/x-icon">
+    <title>Lost In The Space | PIS Games</title>
 </head>
 <body>
 
     <!--Nav Bar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg fixed-top modern-nav" data-bs-theme="dark">
         <div class="container-fluid">
+          <a class="navbar-brand brand-logo" href="Index.html">
+            <span class="brand-text">PIS</span>
+            <span class="brand-accent">GAMES</span>
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="Index.html">HOME</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#descriptionAnchor">DESCRIPTION</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#imagesAnchor">IMAGES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#videosAnchor">VIDEOSs</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRESS KIT
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="Shadow Strikers.html">Shadow Strikers</a></li>
-                  <li><a class="dropdown-item" href="UnlimitedFight US.html">Unlimited Fight Ultimate Strike</a></li>
-                  <li><a class="dropdown-item" href="Unlimited Fight.html">Unlimited Fight</a></li>
-                </ul>
-              </li>
+                    <a class="nav-link" href="Index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#descriptionAnchor">DESCRIPTION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#imagesAnchor">IMAGES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#videosAnchor">VIDEOS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PRESS KIT
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="Shadow Strikers Arena of Rivals.html">Shadow Strikers Arena of Rivals</a></li>
+                    <li><a class="dropdown-item" href="Shadow Strikers.html">Shadow Strikers</a></li>
+                    <li><a class="dropdown-item" href="UnlimitedFight US.html">Unlimited Fight Ultimate Strike</a></li>
+                    <li><a class="dropdown-item" href="Unlimited Fight.html">Unlimited Fight</a></li>
+                    </ul>
+                </li>
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 
+    <!--Game Cover-->
+    <div class="game-cover">
+        <div class="cover-overlay"></div>
+        <img class="cover-image" src="img/Lost In The Space/Screenshot (12).png" alt="Lost In The Space">
+        <div class="cover-content">
+            <h1 class="cover-title">Lost In The Space</h1>
+            <p class="cover-tagline">Frantic Top-Down Action Awaits</p>
+        </div>
+    </div>
 
-      <!--Main Image-->
-      <div id="coverImageDiv" class="carouselDivConteiner">
-        <img id="coverImage" src="img/Lost In The Space/Screenshot (12).png" alt="">
-      </div>
+    <div id="descriptionAnchor"></div>
 
-
-      <!--Anchor-->
-      <span id="descriptionAnchor"></span>
-
-
-      <!--Blanck Space-->
-      <div class="blanckSpace"></div>
-
-      <!--Dowbload and Play Now-->
-      <a class="simpleLink" target="_blank" href="https://store.steampowered.com/app/1924050/Lost_In_The_Space/">
-        <div class="titleDiv titleDiv2 buttonLink">DOWNLOAD THE GAME AND PLAY NOW <img id="steamLogo" src="img/Steam_icon_logo.svg.png" alt="" style="margin-left: 20px;"></div>
-    </a>
-
+    <!--Steam Button-->
+    <section class="steam-section">
+        <div class="container">
+            <a class="steam-button" target="_blank" href="https://store.steampowered.com/app/1924050/Lost_In_The_Space/">
+                <span>Download & Play Now on Steam</span>
+                <img class="steam-icon" src="img/Steam_icon_logo.svg.png" alt="Steam">
+            </a>
+        </div>
+    </section>
 
     <!--Game Description-->
-    <div class="gameSectionDescription">
-        <!--The Game-->
-    <div class="d-flex align-items-start divContainer">
-        <div>
-            <div class="gameDescriptionTitle">The Game</div>
-            <p class="descriptionText">An exhilarating top-down shooter awaits. With intense and immersive gameplay, players dive into a fast-paced experience that will test their reflexes and skills like never before. Get ready for frantic action as you tackle relentless challenges in this thrilling world of gunfire.</p>
+    <section class="game-details-section">
+        <div class="container">
+            <!--The Game-->
+            <div class="detail-card">
+                <div class="detail-content">
+                    <div class="detail-text">
+                        <h2 class="detail-title">The Game</h2>
+                        <p class="detail-description">An exhilarating top-down shooter awaits. With intense and immersive gameplay, players dive into a fast-paced experience that will test their reflexes and skills like never before. Get ready for frantic action as you tackle relentless challenges in this thrilling world of gunfire.</p>
+                    </div>
+                    <div class="detail-media">
+                        <img class="detail-image" src="img/Lost In The Space/Screenshots/Screenshot (101).png" alt="Lost In The Space Gameplay">
+                    </div>
+                </div>
+            </div>
+
+            <!--Art Style-->
+            <div class="detail-card reverse">
+                <div class="detail-content">
+                    <div class="detail-media">
+                        <img class="detail-image" src="img/Lost In The Space/Screenshots/Screenshot (21).png" alt="Lost In The Space Art">
+                    </div>
+                    <div class="detail-text">
+                        <h2 class="detail-title">Art Style</h2>
+                        <p class="detail-description">The game features an art style inspired by cartoons, vibrant and brimming with particles and animations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Features-->
+            <div class="detail-card">
+                <div class="detail-content">
+                    <div class="detail-text">
+                        <h2 class="detail-title">Features</h2>
+                        <p class="detail-description">The game boasts several key features, including a shooting button, a weapon-switching mechanic, a reload button for ammunition, and a jump function. Additionally, players have the freedom to move in eight different directions, enhancing their control and engagement within the gameplay.</p>
+                    </div>
+                    <div class="detail-media">
+                        <img class="detail-image" src="img/Lost In The Space/Screenshots/Screenshot (43).png" alt="Lost In The Space Features">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="simpleCenterDiv">
-            <img class="gameplayImage" src="img/Lost In The Space/Screenshots/Screenshot (101).png" alt="Unlimited Fight Ultimate Strike">
+    </section>
+
+    <div id="imagesAnchor"></div>
+
+    <!--Images Gallery-->
+    <section class="media-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Gallery</span>
+                <h2 class="section-title">Screenshots</h2>
+            </div>
+
+            <div class="media-grid">
+                <img class="media-item" src="img/Lost In The Space/Screenshots/Screenshot (20).png" alt="Screenshot 1">
+                <img class="media-item" src="img/Lost In The Space/Screenshots/Screenshot (30).png" alt="Screenshot 2">
+                <img class="media-item" src="img/Lost In The Space/Screenshots/Screenshot (56).png" alt="Screenshot 3">
+                <img class="media-item" src="img/Lost In The Space/Screenshots/Screenshot (55).png" alt="Screenshot 4">
+                <img class="media-item" src="img/Lost In The Space/Screenshots/Screenshot (72).png" alt="Screenshot 5">
+                <img class="media-item" src="img/Lost In The Space/Screenshots/Screenshot (87).png" alt="Screenshot 6">
+            </div>
+
+            <div class="download-section">
+                <a href="https://drive.google.com/file/d/1_lrf2tKPMhIfq6QmHjyStrMvK5so5_Ko/view?usp=drive_link" target="_blank" class="download-button">
+                    <span>Download Screenshots, Logo & Cover Art (235mb)</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 14L6 10H8V6H12V10H14L10 14Z" fill="currentColor"/>
+                        <path d="M4 16H16V18H4V16Z" fill="currentColor"/>
+                    </svg>
+                </a>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <!--Art Style-->
-    <div class="d-flex align-items-start divContainer">
-        <div class="simpleCenterDiv">
-            <img class="gameplayImage" src="img/Lost In The Space/Screenshots/Screenshot (21).png" alt="Unlimited Fight Ultimate Strike">            
-        </div>
-        <div>
-            <div class="gameDescriptionTitle">Art Style</div>
-            <p class="descriptionText">The game features an art style inspired by cartoons, vibrant and brimming with particles and animations.</p>
-        </div>
-    </div>
-
-    <!--Features-->
-    <div class="d-flex align-items-start divContainer">
-        <div>
-            <div class="gameDescriptionTitle">Features</div>
-            <p class="descriptionText">The game boasts several key features, including a shooting button, a weapon-switching mechanic, a reload button for ammunition, and a jump function. Additionally, players have the freedom to move in eight different directions, enhancing their control and engagement within the gameplay.</p>
-        </div>
-        <div class="simpleCenterDiv">
-            <img class="gameplayImage" src="img/Lost In The Space/Screenshots/Screenshot (43).png" alt="Unlimited Fight Ultimate Strike">
-        </div>
-    </div>
-
-
-    <!--Anchor-->
-    <span id="imagesAnchor"></span>
-
-
-    <!--Blanck Space-->
-    <div class="blanckSpace"></div>
-
-    </div>
-
-
-      <!--Images-->
-      <div class="titleDiv titleDiv2">Images</div>
-
-    <div class="gameSectionDescription">
-        <br><br>
-       <div class="midiaContentBlockDiv">
-        <img class="midiaContent imageContent" src="img/Lost In The Space/Screenshots/Screenshot (20).png" alt="Unlimited Fight Ultimate Strike">
-        <img class="midiaContent imageContent" src="img/Lost In The Space/Screenshots/Screenshot (30).png" alt="Unlimited Fight Ultimate Strike">
-        <img class="midiaContent imageContent" src="img/Lost In The Space/Screenshots/Screenshot (56).png" alt="Unlimited Fight Ultimate Strike">
-       </div>
-       <div class="midiaContentBlockDiv">
-        <img class="midiaContent imageContent" src="img/Lost In The Space/Screenshots/Screenshot (55).png" alt="Unlimited Fight Ultimate Strike">
-        <img class="midiaContent imageContent" src="img/Lost In The Space/Screenshots/Screenshot (72).png" alt="Unlimited Fight Ultimate Strike">
-        <img class="midiaContent imageContent" src="img/Lost In The Space/Screenshots/Screenshot (87).png" alt="Unlimited Fight Ultimate Strike">
-       </div>
-       <a href="https://drive.google.com/file/d/1_lrf2tKPMhIfq6QmHjyStrMvK5so5_Ko/view?usp=drive_link" target="_blank">
-            <div class="titleDiv buttonLink downloadButton">Download Screenshot, Logo and Cover Art (235mb)</div>
-       </a>
-    </div>
-
-
-    <!--Anchor-->
-    <span id="videosAnchor"></span>
-
-    <!--Blanck Space-->
-    <div class="blanckSpace"></div>
+    <div id="videosAnchor"></div>
 
     <!--Videos-->
-    <div class="titleDiv titleDiv2">Videos</div>
+    <section class="media-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Watch</span>
+                <h2 class="section-title">Trailers & Gameplay</h2>
+            </div>
 
-    <div class="gameSectionDescription">
-        <br><br>
-       <div class="midiaContentBlockDiv">
-        <iframe class="midiaContent videoContent" width="560" height="315" src="https://www.youtube.com/embed/q6ZlNzoePZ8?si=shsZL5_VioiS6XHi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-       <div class="midiaContentBlockDiv">
+            <div class="video-container">
+                <iframe class="video-frame" src="https://www.youtube.com/embed/q6ZlNzoePZ8?si=shsZL5_VioiS6XHi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
 
-       </div>
-       <a href="https://drive.google.com/file/d/1tzvkTceCrFsJiKilKSINotU39bjr5zUX/view?usp=drive_link" target="_blank">
-            <div class="titleDiv buttonLink downloadButton">Download Video Trailers (145mb)</div>
-       </a>
-    </div>
-
-
-
-    <!--Blanck Space-->
-    <div class="blanckSpace"></div>
-    
-    
+            <div class="download-section">
+                <a href="https://drive.google.com/file/d/1tzvkTceCrFsJiKilKSINotU39bjr5zUX/view?usp=drive_link" target="_blank" class="download-button">
+                    <span>Download Video Trailers (145mb)</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 14L6 10H8V6H12V10H14L10 14Z" fill="currentColor"/>
+                        <path d="M4 16H16V18H4V16Z" fill="currentColor"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <!--Footer-->
-    <div id="footer">
-        <a id="footerLink" href="#">PIS Games 2023</a>
-    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="Index.html" class="footer-brand">PIS Games</a>
+                <p class="footer-copyright">© 2026 PIS Games. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
